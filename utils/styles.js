@@ -25,6 +25,10 @@ export const navButtonStyle = clsx(
 	'bg-white text-dark-blue px-[2rem] py-[0.5rem] font-semibold rounded-full'
 )
 
+export const btnTextStyle = clsx(
+	'text-dark-blue font-semibold text-[1rem] pb-[0.5rem] border-b border-dark-blue flex items-center gap-3'
+)
+
 // Hero section style
 export const heroContainer = clsx('bg-dark-blue w-[100vw] h-[100vh]')
 
