@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar/Index'
 import './globals.css'
 import { Manrope } from 'next/font/google'
 
@@ -11,7 +12,10 @@ const manrope = Manrope({ subsets: ['latin'] })
 export default function RootLayout({ children }) {
 	return (
 		<html lang='en'>
-			<body className={`${manrope.className} antialiased`}>{children}</body>
+			<body className={`${manrope.className} antialiased`}>
+				<Navbar />
+				{children}
+			</body>
 		</html>
 	)
 }
