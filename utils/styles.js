@@ -13,7 +13,9 @@ export const navStyle = clsx(
 )
 
 // Navigation list style
-export const listStyle = clsx('font-medium text-[1rem] text-white')
+export const listStyle = clsx(
+	'font-medium text-[1rem] text-white hover:border-b hover:border-white transition-all ease-in-out duration-75'
+)
 
 // Hero background circle style
 export const bgCircle = clsx(
@@ -22,7 +24,7 @@ export const bgCircle = clsx(
 
 // Navigation button style
 export const navButtonStyle = clsx(
-	'bg-white text-dark-blue px-[2rem] py-[0.5rem] font-semibold rounded-full'
+	'bg-white text-dark-blue px-[2rem] py-[0.5rem] font-semibold rounded-full hover:opacity-[0.8] transition-all ease-in-out duration-100'
 )
 
 export const btnTextStyle = clsx(
