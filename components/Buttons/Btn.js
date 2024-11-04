@@ -14,7 +14,11 @@ const Btn = ({ color, type, text }) => {
 				} ${
 					color === 'green' && type === 'fill' && 'bg-green text-dark-blue'
 				} ${
-					type === 'stroke' && 'bg-transparent border border-white text-white'
+					type === 'stroke' && 'bg-transparent border-2 border-white text-white'
+				} ${
+					type === 'stroke' &&
+					color === 'blue' &&
+					'bg-transparent border-2 border-dark-blue text-dark-blue'
 				}`
 			)}
 		>

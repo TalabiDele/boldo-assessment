@@ -6,7 +6,7 @@ const Cards = ({ image, title, description }) => {
 	return (
 		<div className=' w-[300px]'>
 			<div className='w-full h-[354px] relative mb-[1rem]'>
-				<Image src={image} alt={title} fill objectFit='contain' />
+				<Image src={image} alt={title} fill style={{ objectFit: 'contain' }} />
 			</div>
 			<h2 className=' text-black font-semibold text-[1.5rem] mb-[1rem]'>
 				{title}

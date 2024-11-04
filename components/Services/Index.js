@@ -4,6 +4,7 @@ import { CARD_LIST } from '@/utils/constants'
 import Cards from '../Card'
 import Connect from '../Connect'
 import TemplateSection from '../TemplateSection'
+import FaqSection from '../FaqSection'
 
 const Services = () => {
 	return (
@@ -31,6 +32,7 @@ const Services = () => {
 			</div>
 
 			<TemplateSection />
+			<FaqSection />
 		</div>
 	)
 }

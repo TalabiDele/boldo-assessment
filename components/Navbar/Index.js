@@ -18,7 +18,7 @@ const Navbar = () => {
 				<ul className=''>
 					{NAV_LIST?.map((item, index) =>
 						item.isButton ? (
-							<BtnNav text={item.title} />
+							<BtnNav text={item.title} key={index} />
 						) : (
 							<li className={listStyle} key={index}>
 								<Link href={item.link}>{item.title}</Link>

@@ -12,7 +12,7 @@ const TemplateCard = ({ description, person }) => {
 							src={person.image}
 							alt={person.name}
 							fill
-							objectFit='cover'
+							style={{ objectFit: 'cover' }}
 							className='rounded-full'
 						/>
 					</div>

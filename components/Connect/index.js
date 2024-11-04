@@ -39,11 +39,21 @@ const Connect = () => {
 				<div className=''>
 					<div className=' relative w-[494px]'>
 						<div className=' w-[494px] h-[506px] relative'>
-							<Image src={connectOne} alt='' fill objectFit='contain' />
+							<Image
+								src={connectOne}
+								alt=''
+								fill
+								style={{ objectFit: 'contain' }}
+							/>
 						</div>
 						<div className=' absolute bg-white shadow-lg p-[2rem] rounded-lg right-[3rem] -bottom-[5rem]'>
 							<div className=' relative h-[227.21px] w-[170px]'>
-								<Image src={chart} alt='chart' fill objectFit='contain' />
+								<Image
+									src={chart}
+									alt='chart'
+									fill
+									style={{ objectFit: 'contain' }}
+								/>
 							</div>
 							<h2 className='text-dark-blue text-[1.2rem] font-semibold mt-[1rem]'>
 								30%
@@ -99,11 +109,21 @@ const Connect = () => {
 				<div className=''>
 					<div className=' relative w-[494px]'>
 						<div className=' w-[494px] h-[506px] relative'>
-							<Image src={connectTwo} alt='' fill objectFit='contain' />
+							<Image
+								src={connectTwo}
+								alt=''
+								fill
+								style={{ objectFit: 'contain' }}
+							/>
 						</div>
 						<div className=' absolute bg-white shadow-lg p-[2rem] rounded-lg left-[4rem] -bottom-[10rem] grid gap-[0.5rem]'>
 							<div className=' relative h-[227.21px] w-[170px]'>
-								<Image src={pie} alt='chart' fill objectFit='contain' />
+								<Image
+									src={pie}
+									alt='chart'
+									fill
+									style={{ objectFit: 'contain' }}
+								/>
 							</div>
 							<div className=' flex items-center gap-3'>
 								<div className=' h-[0.5rem] w-[0.5rem] rounded-full bg-[#0DBBFC]'></div>

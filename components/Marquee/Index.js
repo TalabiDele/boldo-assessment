@@ -8,25 +8,25 @@ const Marquee = () => {
 		<div class=' animate-marquee whitespace-nowrap flex w-[90vw] mx-auto relative items-center justify-between'>
 			<span className=' absolute bg-gradient-to-r from-dark-blue to-transparent w-[40rem] h-[5rem] z-10 left-0'></span>
 			<span class='w-[9rem] h-[3rem] relative mx-4'>
-				<Image src={boldo} alt='' fill objectFit='contain' />
+				<Image src={boldo} alt='' fill style={{ objectFit: 'contain' }} />
 			</span>
 			<span class='w-[9rem] h-[3rem] relative mx-4'>
-				<Image src={presto} alt='' fill objectFit='contain' />
+				<Image src={presto} alt='' fill style={{ objectFit: 'contain' }} />
 			</span>
 			<span class='w-[9rem] h-[3rem] relative mx-4'>
-				<Image src={boldo} alt='' fill objectFit='contain' />
+				<Image src={boldo} alt='' fill style={{ objectFit: 'contain' }} />
 			</span>
 			<span class='w-[9rem] h-[3rem] relative mx-4'>
-				<Image src={presto} alt='' fill objectFit='contain' />
+				<Image src={presto} alt='' fill style={{ objectFit: 'contain' }} />
 			</span>
 			<span class='w-[9rem] h-[3rem] relative mx-4'>
-				<Image src={boldo} alt='' fill objectFit='contain' />
+				<Image src={boldo} alt='' fill style={{ objectFit: 'contain' }} />
 			</span>
 			<span class='w-[9rem] h-[3rem] relative mx-4'>
-				<Image src={presto} alt='' fill objectFit='contain' />
+				<Image src={presto} alt='' fill style={{ objectFit: 'contain' }} />
 			</span>
 			<span class='w-[9rem] h-[3rem] relative mx-4'>
-				<Image src={boldo} alt='' fill objectFit='contain' />
+				<Image src={boldo} alt='' fill style={{ objectFit: 'contain' }} />
 			</span>
 			<span className=' absolute bg-gradient-to-l from-dark-blue to-transparent w-[40rem] h-[5rem] z-4 right-0'></span>
 		</div>
