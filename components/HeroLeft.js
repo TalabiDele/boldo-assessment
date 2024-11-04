@@ -12,7 +12,7 @@ const HeroLeft = () => {
 				Funding handshake buyer business-to-business metrics iPad partnership.
 				First mover advantage innovator success deployment non-disclosure.
 			</p>
-			<div className=' flex gap-4'>
+			<div className=' flex gap-4 max-md:justify-center'>
 				<Btn text='Buy template' color='green' type='fill' />
 				<Btn text='Explore' type='stroke' />
 			</div>

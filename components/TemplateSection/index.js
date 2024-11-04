@@ -55,7 +55,7 @@ const TemplateSection = () => {
 					</div>
 				</div>
 
-				<div className=' flex justify-between'>
+				<div className=' flex justify-between flex-wrap gap-5 max-md:justify-center'>
 					{cardItems.map((item, index) => (
 						<TemplateCard
 							key={index}

@@ -32,18 +32,20 @@ export const btnTextStyle = clsx(
 )
 
 // Hero section style
-export const heroContainer = clsx('bg-dark-blue w-[100vw] h-[100vh]')
+export const heroContainer = clsx(
+	'bg-dark-blue w-[100vw] h-[100vh] max-md:h-auto max-md:pb-[3rem]'
+)
 
 export const heroStyle = clsx(
-	'flex items-center justify-between w-[90vw] mx-auto pt-[8rem] pb-[4rem] relative z-[2] flex-wrap'
+	'flex items-center justify-between w-[90vw] mx-auto pt-[8rem] pb-[4rem] relative z-[2] gap-5 max-md:flex-col'
 )
 
 export const heroLeftStyle = clsx(
-	'[&>h1]:text-white [&>h1]:text-[3rem] [&>p]:text-light-gray [&>p]:text-[1rem] w-[35.438rem] grid gap-[1.5rem]'
+	'[&>h1]:text-white [&>h1]:text-[3rem] [&>p]:text-light-gray [&>p]:text-[1rem] w-[35.438rem] grid gap-[1.5rem] max-md:text-center max-md:w-[80vw] max-md:[&>h1]:text-[2rem] max-md:[&>p]:text-[0.8rem]'
 )
 
 export const HeroImageOneStyle = clsx(
-	'bg-white/30 backdrop-blur-md shadow-lg border-white/20 rounded-lg p-[1rem] w-[493.86px] h-[231.9px] mb-[1rem]'
+	'bg-white/30 backdrop-blur-md shadow-lg border-white/20 rounded-lg p-[1rem] w-[493.86px] h-[231.9px] mb-[1rem] max-lg:w-full'
 )
 
 export const HeaderStyle = clsx('text-sm text-gray text-center')

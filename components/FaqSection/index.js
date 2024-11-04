@@ -23,7 +23,7 @@ const FaqSection = () => {
 				/>
 			</div>
 
-			<div className=' flex justify-between'>
+			<div className=' flex justify-between max-md:flex-col max-md:gap-4'>
 				<SectionHeader
 					text={
 						'We connect our customers with the best, and help them keep up-and stay open.'
@@ -33,7 +33,7 @@ const FaqSection = () => {
 				<div className=''>
 					{faqItems.map((item, index) => (
 						<div
-							className=' flex items-center justify-between w-[25rem] mb-[1rem] pb-[1rem] border-b border-[#C4C4C4]'
+							className=' flex items-center justify-between w-[25rem] max-md:w-full mb-[1rem] pb-[1rem] border-b border-[#C4C4C4]'
 							key={index}
 						>
 							<p className=''>{item}</p>

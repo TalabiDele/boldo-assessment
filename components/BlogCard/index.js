@@ -4,16 +4,15 @@ import React from 'react'
 const BlogCard = ({ image, title, date, description, person }) => {
 	return (
 		<div>
-			<div className='w-[344px] h-[424px] flex flex-col gap-4 justify-between'>
+			<div className='w-[300px] h-[424px] flex flex-col gap-4 justify-between max-lg:gap-1 max-sm:h-[450px] max-lg:h-[400px] max-lg:mb-[1rem] max-md:w-[80vw]'>
 				<div className=''>
-					<div className=' w-full h-[209px] relative rounded-lg mb-[1rem]'>
+					<div className=' w-full h-[209px] max-md:h-[250px] relative rounded-lg mb-[1rem]'>
 						<Image
 							src={image}
 							alt={title}
 							fill
-							style={{ objectFit: 'cover' }}
 							objectPosition='center'
-							className='rounded-lg'
+							className='rounded-lg max-md:object-top object-cover'
 						/>
 					</div>
 					<div className=''>

@@ -8,7 +8,7 @@ import { HeroImageOneStyle } from '@/utils/styles'
 
 const Stats = () => {
 	return (
-		<div>
+		<div className='max-lg:w-[40vw] max-md:w-[80vw]'>
 			<div className={HeroImageOneStyle}>
 				<div className=' relative w-[2rem] h-[1rem]'>
 					<Image src={top} alt='nav' fill style={{ objectFit: 'contain' }} />
@@ -18,8 +18,8 @@ const Stats = () => {
 				</div>
 			</div>
 
-			<div className='flex justify-between'>
-				<div className='bg-white/30 backdrop-blur-md shadow-lg border-white/20 rounded-lg p-[1rem] w-[192.18px]'>
+			<div className='flex justify-between max-lg:gap-5'>
+				<div className='bg-white/30 backdrop-blur-md shadow-lg border-white/20 rounded-lg p-[1rem] w-[192.18px] max-lg:w-[50%]'>
 					<div className=' relative w-[2rem] h-[1rem] mb-[1rem]'>
 						<Image src={top} alt='nav' fill style={{ objectFit: 'contain' }} />
 					</div>
@@ -27,7 +27,7 @@ const Stats = () => {
 						<Image src={statsTwo} alt='' />
 					</div>
 				</div>
-				<div className='bg-white/30 backdrop-blur-md shadow-lg border-white/20 rounded-lg p-[1rem] w-[261.96px]'>
+				<div className='bg-white/30 backdrop-blur-md shadow-lg border-white/20 rounded-lg p-[1rem] w-[261.96px] max-lg:w-[50%]'>
 					<div className=' relative w-[2rem] h-[1rem] mb-[1rem]'>
 						<Image src={top} alt='nav' fill style={{ objectFit: 'contain' }} />
 					</div>

@@ -52,7 +52,7 @@ const Blog = () => {
 				headerText={'Value proposition accelerator product management venture'}
 				align={'center'}
 			/>
-			<div className=' flex justify-between items-center w-[80vw] gap-5 mx-auto'>
+			<div className=' flex justify-between items-center w-[80vw] gap-5 mx-auto max-lg:flex-wrap'>
 				{cardItems.map((item, index) => (
 					<BlogCard
 						description={item.description}

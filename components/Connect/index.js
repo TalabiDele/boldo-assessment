@@ -35,19 +35,19 @@ const Connect = () => {
 
 	return (
 		<div className='w-[90vw] mx-auto grid gap-[10rem]'>
-			<div className=' flex justify-between items-end'>
+			<div className=' flex justify-between items-end max-lg:justify-start max-lg:gap-5 max-md:flex-col-reverse max-md:w-full max-md:items-start'>
 				<div className=''>
-					<div className=' relative w-[494px]'>
-						<div className=' w-[494px] h-[506px] relative'>
+					<div className=' relative w-[494px] max-lg:w-auto'>
+						<div className=' w-full h-[506px] relative max-lg:w-[350px] max-md:w-[80vw]'>
 							<Image
 								src={connectOne}
 								alt=''
 								fill
-								style={{ objectFit: 'contain' }}
+								className=' object-contain max-md:object-cover rounded-lg'
 							/>
 						</div>
-						<div className=' absolute bg-white shadow-lg p-[2rem] rounded-lg right-[3rem] -bottom-[5rem]'>
-							<div className=' relative h-[227.21px] w-[170px]'>
+						<div className=' absolute bg-white shadow-lg p-[2rem] rounded-lg right-[3rem] -bottom-[5rem] max-lg:left-[5rem] max-md:w-[15rem] mx-auto'>
+							<div className=' relative h-[227.21px] w-[170px] max-lg:w-[140px] max-lg:h-[200px]'>
 								<Image
 									src={chart}
 									alt='chart'
@@ -65,7 +65,7 @@ const Connect = () => {
 					</div>
 				</div>
 
-				<div className=' flex flex-col gap-10 '>
+				<div className=' flex flex-col gap-10 max-lg:w-[50vw] max-md:w-full max-md:gap-4 max-md:mb-[3rem]'>
 					<SectionHeader
 						text={
 							'We connect our customers with the best, and help them keep up-and stay open.'
@@ -85,7 +85,7 @@ const Connect = () => {
 				</div>
 			</div>
 
-			<div className=' flex justify-between items-end'>
+			<div className=' flex justify-between items-end max-lg:justify-start max-lg:gap-5 max-md:flex-col max-md:w-full max-md:items-start'>
 				<div className=' flex flex-col gap-10 '>
 					<SectionHeader
 						text={
@@ -107,13 +107,13 @@ const Connect = () => {
 				</div>
 
 				<div className=''>
-					<div className=' relative w-[494px]'>
-						<div className=' w-[494px] h-[506px] relative'>
+					<div className=' relative w-[494px] max-lg:w-auto'>
+						<div className=' w-[494px] h-[506px] relative max-lg:w-[350px] max-md:w-[80vw]'>
 							<Image
 								src={connectTwo}
 								alt=''
 								fill
-								style={{ objectFit: 'contain' }}
+								className=' object-contain max-md:object-cover rounded-lg'
 							/>
 						</div>
 						<div className=' absolute bg-white shadow-lg p-[2rem] rounded-lg left-[4rem] -bottom-[10rem] grid gap-[0.5rem]'>

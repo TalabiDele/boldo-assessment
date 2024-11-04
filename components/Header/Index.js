@@ -11,7 +11,7 @@ const Header = ({ smallText, headerText, color, align }) => {
 					align === 'center' ? 'text-center' : 'text-left'
 				} ${
 					color === 'white' ? ' text-white' : 'text-black mx-auto'
-				} [&>p]:text-[1rem] [&>p]:text-gray [&>h1]:text-[2.5rem] w-[60%]`
+				} [&>p]:text-[1rem] [&>p]:text-gray [&>h1]:text-[2.5rem] w-[60%] max-md:[&>h1]:text-[1.8rem] max-sm:[&>h1]:text-[1.5rem] max-lg:w-[80vw]`
 			)}
 		>
 			{smallText && <p>{smallText}</p>}

@@ -5,30 +5,30 @@ import Image from 'next/image'
 
 const Marquee = () => {
 	return (
-		<div class=' animate-marquee whitespace-nowrap flex w-[90vw] mx-auto relative items-center justify-between'>
-			<span className=' absolute bg-gradient-to-r from-dark-blue to-transparent w-[40rem] h-[5rem] z-10 left-0'></span>
-			<span class='w-[9rem] h-[3rem] relative mx-4'>
+		<div className=' animate-marquee whitespace-nowrap flex w-[90vw] mx-auto relative items-center justify-between max-md:w-[150vw]'>
+			<span className=' absolute bg-gradient-to-r from-dark-blue to-transparent w-[40rem] h-[5rem] z-10 left-0 max-md:w-[10rem]'></span>
+			<span className='w-[9rem] max-md:w-[14rem] h-[3rem] relative mx-4'>
 				<Image src={boldo} alt='' fill style={{ objectFit: 'contain' }} />
 			</span>
-			<span class='w-[9rem] h-[3rem] relative mx-4'>
+			<span className='w-[9rem] max-md:w-[14rem] h-[3rem] relative mx-4'>
 				<Image src={presto} alt='' fill style={{ objectFit: 'contain' }} />
 			</span>
-			<span class='w-[9rem] h-[3rem] relative mx-4'>
+			<span className='w-[9rem] max-md:w-[14rem] h-[3rem] relative mx-4'>
 				<Image src={boldo} alt='' fill style={{ objectFit: 'contain' }} />
 			</span>
-			<span class='w-[9rem] h-[3rem] relative mx-4'>
+			<span className='w-[9rem] max-md:w-[14rem] h-[3rem] relative mx-4'>
 				<Image src={presto} alt='' fill style={{ objectFit: 'contain' }} />
 			</span>
-			<span class='w-[9rem] h-[3rem] relative mx-4'>
+			<span className='w-[9rem] max-md:w-[14rem] h-[3rem] relative mx-4'>
 				<Image src={boldo} alt='' fill style={{ objectFit: 'contain' }} />
 			</span>
-			<span class='w-[9rem] h-[3rem] relative mx-4'>
+			<span className='w-[9rem] max-md:w-[14rem] h-[3rem] relative mx-4'>
 				<Image src={presto} alt='' fill style={{ objectFit: 'contain' }} />
 			</span>
-			<span class='w-[9rem] h-[3rem] relative mx-4'>
+			<span className='w-[9rem] max-md:w-[14rem] h-[3rem] relative mx-4'>
 				<Image src={boldo} alt='' fill style={{ objectFit: 'contain' }} />
 			</span>
-			<span className=' absolute bg-gradient-to-l from-dark-blue to-transparent w-[40rem] h-[5rem] z-4 right-0'></span>
+			<span className=' absolute bg-gradient-to-l from-dark-blue to-transparent w-[40rem] h-[5rem] z-4 right-0 max-md:w-[10rem]'></span>
 		</div>
 	)
 }

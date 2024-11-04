@@ -4,7 +4,7 @@ import React from 'react'
 const TemplateCard = ({ description, person }) => {
 	return (
 		<div>
-			<div className=' bg-white shadow-md rounded-lg w-[350px] p-[2rem]'>
+			<div className=' bg-white shadow-md rounded-lg w-[350px] p-[2rem] max-md:w-[80vw] max-md:mx-auto'>
 				<div className=' text-[1.5rem] mb-[1rem]'>"{description}"</div>
 				<div className=' flex items-center gap-3'>
 					<div className=' w-[3rem] h-[3rem] relative rounded-full'>

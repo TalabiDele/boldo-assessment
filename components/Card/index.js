@@ -4,9 +4,14 @@ import BtnText from '../Buttons/BtnText'
 
 const Cards = ({ image, title, description }) => {
 	return (
-		<div className=' w-[300px]'>
-			<div className='w-full h-[354px] relative mb-[1rem]'>
-				<Image src={image} alt={title} fill style={{ objectFit: 'contain' }} />
+		<div className=' w-[300px] max-md:w-[240px] max-[561px]:w-[80vw] max-[561px]:mx-auto'>
+			<div className='w-full h-[354px] relative mb-[1rem] rounded-lg '>
+				<Image
+					src={image}
+					alt={title}
+					fill
+					className=' object-contain max-md:object-cover rounded-lg'
+				/>
 			</div>
 			<h2 className=' text-black font-semibold text-[1.5rem] mb-[1rem]'>
 				{title}

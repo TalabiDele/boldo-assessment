@@ -15,7 +15,7 @@ const Services = () => {
 					headerText='Handshake infographic mass market crowdfunding iteration.'
 					align={'center'}
 				/>
-				<div className=' flex justify-between w-[90vw] mx-auto'>
+				<div className=' flex justify-between w-[90vw] mx-auto max-md:flex-wrap max-md:gap-7'>
 					{CARD_LIST.map((card, index) => (
 						<Cards
 							key={index}
