@@ -44,7 +44,11 @@ const Footer = () => {
 						</h3>
 						<div className=' flex flex-col justify-between '>
 							{item.lists.map((list) => (
-								<Link key={index} href='' className='mb-[1rem]'>
+								<Link
+									key={index}
+									href=''
+									className='mb-[1rem] hover:text-green'
+								>
 									{list}
 								</Link>
 							))}
