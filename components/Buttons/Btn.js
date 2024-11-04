@@ -8,7 +8,9 @@ const Btn = ({ color, type, text }) => {
 		<button
 			className={cn(
 				`px-[2rem] py-[0.5rem] text-[1rem] font-semibold rounded-full ${
-					color === 'blue' && type === 'fill' && 'bg-dark-blue text-white'
+					color === 'blue' &&
+					type === 'fill' &&
+					'bg-dark-blue text-white w-[9rem]'
 				} ${
 					color === 'green' && type === 'fill' && 'bg-green text-dark-blue'
 				} ${
